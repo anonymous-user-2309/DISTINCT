@@ -1,5 +1,12 @@
 # **DISTINCT: Description-Guided Non-regressive Test Case Generation**
 
+![Python Version](https://img.shields.io/badge/python-3.8-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
+![LLM Used](https://img.shields.io/badge/LLMs-Qianfan%20%7C%20DeepSeek-orange)
+![Dataset](https://img.shields.io/badge/Datasets-Defects4J--Desc%20%7C%20QuixBugs--Desc-blueviolet)
+
+
 ## **1\. Introduction**
 
 Unit testing is a cornerstone of software quality assurance. However, existing unit test generation methods predominantly focus on regression scenarios and often fall short in non - regression settings where the method under test may be faulty. To address this limitation, we propose ****DISTINCT****, a novel framework that incorporates natural - language descriptions (NLDs) of methods' intended behavior into the test case generation process. The workflow is shown below.
